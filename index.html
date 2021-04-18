@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>формы</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div>
+		<h1>Анкета ученика</h1>
+		<form>
+			<fieldset>
+				<legend>Контактная информация</legend>
+				<input type="text" placeholder="  Введите имя"> <br>
+				<input type="text" placeholder="  Введите номер телефона"> <br>
+				<input type="email" placeholder="  Введите email"> <br>
+			</fieldset>
+			<fieldset>
+				<legend>Личная информация</legend>
+				<label for="age">Ваш возраст</label>
+				<input id="age" type="number"> <br>
+
+				<label for="date">Дата рождения</label>
+				<input id="date" type="date"> <br>
+
+				<label for="select">По какому курсу занимаетесь</label> <br><br>
+				<select id="select">
+					<option>Scratch</option>
+					<option>front-end</option>
+					<option>c++</option>
+					<option>python</option>
+					<option>computer-literacy</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<legend>Обратная связь</legend>
+				<label>Посоветуете ли вы нас друзьям?</label><br>
+
+				<input id="moss" type="radio" name="name">
+				<label class="moss" for="moss">Да</label>
+
+				<input id="moss1" type="radio" name="name">
+				<label class="moss" for="moss1">Конечно</label>
+
+				<input id="moss2" type="radio" name="name">
+				<label class="moss" for="moss2">Неа</label>
+
+				<label for="coment">Оставьте коментарий:)</label><br><br>
+				<textarea id="coment"></textarea>
+			</fieldset>
+
+			<input id="checkbox1" type="checkbox" >
+			<label  for="checkbox1">Разрешите обработку данных</label>
+
+			<input id="checkbox2" type="checkbox" >
+			<label  for="checkbox2">Отправить новости на почту</label>
+			<button>Отправить</button>
+		</form>
+	</div>
+</body>
+</html>

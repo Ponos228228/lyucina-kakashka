@@ -1,0 +1,49 @@
+body {
+	background-color: silver;
+}
+
+form {
+	background-color: white;
+	width: 40%;
+	margin: 0 auto;
+	padding: 0.5% 2%;
+}
+
+input[type=text]  {
+	width: 92%;
+	padding: 3%;
+	border: #dbdbdb solid 1px;
+}
+
+div {
+	margin: : 3%;
+}
+
+a {
+	text-align: right;
+}
+
+input[type=checkbox] {
+	width: 5%;
+	margin: 2%;
+	color: black;
+}
+
+label {
+	margin: 2%;
+	text-decoration: 
+}
+
+button {
+	color: white;
+	border: none; 
+	background-color: #33b54f;
+	width: 92%;
+	margin: 4%;
+	padding: 4%;
+} 
+
+button:hover {
+	border: none;
+	background: red;
+}
